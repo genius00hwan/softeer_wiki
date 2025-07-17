@@ -53,10 +53,10 @@ new String()이 GC되었습니다
 
 ```
 
-### 왜 이런 결과가 나왔는가?
+### 왜 이런 결과가 나왔을까?
 
 #### 처음 생각
-처음엔 리터럴 문자열은 특이하게 관리되는 예외 케이스라고만 생각했다.  
+처음엔 리터럴 문자열은 특이하게 관리되는 특이 케이스라고 생각했다.  
 즉, JVM이 리터럴을 강한 참조로 붙잡고 있어서 클래스가 언로드되지 않는 한 GC되지 않는다는 식으로 단순하게 이해했다.
 
 
@@ -67,7 +67,6 @@ new String()이 GC되었습니다
 - `intern()` 반환값 → GC되지 않음
 - `new String()` 및 intern 호출 전 힙 객체 → GC됨
 
----
 
 #### 진짜 이유
 
@@ -84,21 +83,19 @@ new String()이 GC되었습니다
 
 
 **Runtime Constant Pool과 String Pool의 강한 참조**
-    - Runtime Constant Pool이 String Pool의 문자열을 **강한 참조** 한다.
-    - 이 참조는 클래스 로더 생명주기와 동일하게 유지되며, 클래스가 언로드되기 전까지 GC되지 않는다.
-    - 반면 Heap 객체는 일반 GC 규칙을 따른다.
+
+- Runtime Constant Pool이 String Pool의 문자열을 **강한 참조** 한다.
+- 이 참조는 클래스 로더 생명주기와 동일하게 유지되며, 클래스가 언로드되기 전까지 GC되지 않는다.
+- 반면 Heap 객체는 일반 GC 규칙을 따른다.
+
 > 즉.
 > 리터럴과 intern된 문자열이 GC되지 않는 이유는 Runtime Constant Pool이 String Pool을 강하게 참조하고 있기 때문이다.  
 > 이는 JVM의 메모리 절약 및 성능 최적화를 위한 정상적인 설계이며, 단순한 예외 케이스가 아니다.
 
 ---
-
-정리하자면,
-> 리터럴과 intern된 문자열이 GC되지 않는 이유는 **Runtime Constant Pool이 String Pool을 강하게 참조**하고 있기 때문이다.  
-> 이는 JVM의 **메모리 절약 및 성능 최적화를 위한 정상적인 설계**이며, 단순한 예외 케이스가 아니다.
 ---
 
-## 결론: 개발자가 String을 선언했을 때의 동작
+## 결론 : String을 선언했을 때의 동작
 
 ### `String str = "hello world";` (리터럴 선언)
 
@@ -161,10 +158,10 @@ JDK 7 이상에서는 String Pool이 Heap으로 옮겨졌기 때문에, 더 이�
 
 ## 요약
 
-| 구분 | 저장 위치 | 생성 시점 | GC 여부 | 주요 특징 |
-|------|-----------|-----------|---------|-----------|
-| `String str = "hello world";` | Runtime Constant Pool → String Pool | 클래스 로딩 시 | 클래스 언로드 전까지 GC되지 않음 | 동일한 리터럴 공유 |
-| `String str = new String("hello world");` | Heap | 런타임 시 매번 생성 | 참조 해제 시 GC됨 | Pool 객체와 별개로 독립 생성 |
+| 구분 | 저장 위치                                | 생성 시점 | GC 여부 | 주요 특징 |
+|------|--------------------------------------|-----------|---------|-----------|
+| `String str = "hello world";` | Runtime Constant Pool -> String Pool | 클래스 로딩 시 | 클래스 언로드 전까지 GC되지 않음 | 동일한 리터럴 공유 |
+| `String str = new String("hello world");` | Heap                                 | 런타임 시 매번 생성 | 참조 해제 시 GC됨 | Pool 객체와 별개로 독립 생성 |
 
 ---
 
