@@ -5,18 +5,19 @@
 ## Daily
 
 ### Week1
-- [7/7](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/0707.md)
-- [7/9](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/0709.md)
-- [7/11](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/0711.md)
+- [07.07](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/0707.md)
+- [07.09](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/0709.md)
+- [07.10](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/0710.md)
+- [07.11](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/0711.md)
 - [주간회고](https://github.com/genius00hwan/softeer_wiki/blob/main/week1/%EC%A3%BC%EA%B0%84%ED%9A%8C%EA%B3%A0.md)
 
 
 ### Week2
 
-- [7/14](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0714.md)
-- [7/15](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0715.md)
-- [7/16](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0716.md)
-- [7/17](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0717.md)
+- [07/14](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0714.md)
+- [07/15](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0715.md)
+- [07/16](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0716.md)
+- [07/17](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0717.md)
 
 ---
 
