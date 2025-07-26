@@ -19,7 +19,16 @@
 - [07/16](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0716.md)
 - [07/17](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0717.md)
 - [07/18](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0718.md)
+- [주간회고](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/%EC%A3%BC%EA%B0%84%ED%9A%8C%EA%B3%A0.md)
+- 
+### Week3
 
+- [07/21](https://github.com/genius00hwan/softeer_wiki/blob/main/week3/0721.md)
+- [07/22](https://github.com/genius00hwan/softeer_wiki/blob/main/week3/0722.md)
+- [07/23](https://github.com/genius00hwan/softeer_wiki/blob/main/week3/0723.md)
+- [07/24](https://github.com/genius00hwan/softeer_wiki/blob/main/week3/0724.md)
+- [07/25](https://github.com/genius00hwan/softeer_wiki/blob/main/week3/0725.md)
+- [주간회고](https://github.com/genius00hwan/softeer_wiki/blob/main/week3/%EC%A3%BC%EA%B0%84%ED%9A%8C%EA%B3%A0.md)
 
 ---
 
@@ -36,3 +45,4 @@
 08. [라우팅과 메서드 핸들러 설계](https://github.com/genius00hwan/softeer_wiki/blob/main/append/missions/%EB%9D%BC%EC%9A%B0%ED%8C%85_%EB%A9%94%EC%84%9C%EB%93%9C_%EC%96%B4%EB%8C%91%ED%84%B0.md)
 09. [쿠키 Max-Age 음수값에 대한 의문과 정리](https://github.com/genius00hwan/softeer_wiki/blob/main/append/missions/%EC%BF%A0%ED%82%A4_maxAge_%EC%9D%8C%EC%88%98%EA%B0%92.md)
 10. [Spring의 제약과 안정성](https://github.com/genius00hwan/softeer_wiki/blob/main/append/missions/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%98_%EC%A0%9C%EC%95%BD%EA%B3%BC_%EC%95%88%EC%A0%95%EC%84%B1.md)
+11. [DI 초기화 문제 해결하기](https://github.com/genius00hwan/softeer_wiki/blob/main/append/missions/DIContainer_%EA%B0%9C%EC%84%A0.md)
