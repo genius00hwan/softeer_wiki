@@ -20,7 +20,7 @@
 - [07/17](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0717.md)
 - [07/18](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/0718.md)
 - [주간회고](https://github.com/genius00hwan/softeer_wiki/blob/main/week2/%EC%A3%BC%EA%B0%84%ED%9A%8C%EA%B3%A0.md)
-- 
+
 ### Week3
 
 - [07/21](https://github.com/genius00hwan/softeer_wiki/blob/main/week3/0721.md)
